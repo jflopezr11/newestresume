@@ -1,5 +1,4 @@
 import React from 'react';
-import Codingcolor from './Codingcolor.jpg';
 import './stylePic.css'
 
 

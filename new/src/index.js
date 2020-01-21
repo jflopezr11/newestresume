@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ButtonAppBar from './MenuBar';
-import Header from './Header'
+import MenuBarBar from './MenuBar';
+import Header from './Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
     return (
         <div> 
-             < ButtonAppBar />
+             < MenuBarBar />
             < Header />
         </div>
         
