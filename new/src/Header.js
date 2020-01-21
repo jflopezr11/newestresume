@@ -1,10 +1,13 @@
 import React from 'react';
-import './stylePic.css'
+import './assets/stylePic.css'
+import MenuBarBar from './MenuBar';
 
 
 function Header() {
     return (
-        <div className = "HeaderPic"></div>
+        <div className = "HeaderPic">
+            <MenuBarBar />
+        </div>
     );
 };
 
